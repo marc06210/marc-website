@@ -1,0 +1,19 @@
+FROM nginx:latest
+RUN mkdir /app
+COPY annabelle /usr/share/nginx/html/annabelle
+COPY kilian /usr/share/nginx/html/kilian
+COPY vanessa /usr/share/nginx/html/vanessa
+COPY kevin /usr/share/nginx/html/kevin
+COPY ./index.html /usr/share/nginx/html/index.html
+COPY ./arbre-noel-visages.png /usr/share/nginx/html/arbre-noel-visages.png
+COPY ./webfonts.css /usr/share/nginx/html/webfonts.css
+COPY ./logo.png /usr/share/nginx/html/logo.png
+COPY ./favicon.png /usr/share/nginx/html/favicon.png
+COPY ./logo@2x.png /usr/share/nginx/html/logo@2x.png
+COPY ./logo-medium.png /usr/share/nginx/html/logo-medium.png
+COPY ./logo-medium@2x.png /usr/share/nginx/html/logo-medium@2x.png
+COPY ./logo-small.png /usr/share/nginx/html/logo-small.png
+COPY ./logo-small@2x.png /usr/share/nginx/html/logo-small@2x.png
+COPY ./style.min.1665130206.css /usr/share/nginx/html/style.min.1665130206.css
+COPY ./symbol-defs.svg /usr/share/nginx/html/symbol-defs.svg
+#COPY ./test-mgu.html /usr/share/nginx/html/index.html
