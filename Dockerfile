@@ -4,6 +4,7 @@ COPY annabelle /usr/share/nginx/html/annabelle
 COPY kilian /usr/share/nginx/html/kilian
 COPY vanessa /usr/share/nginx/html/vanessa
 COPY kevin /usr/share/nginx/html/kevin
+COPY christophe /usr/share/nginx/html/christophe
 COPY ./index.html /usr/share/nginx/html/index.html
 COPY ./arbre-noel-visages.png /usr/share/nginx/html/arbre-noel-visages.png
 COPY ./webfonts.css /usr/share/nginx/html/webfonts.css
