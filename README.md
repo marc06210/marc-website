@@ -9,6 +9,8 @@ Pour faire le build
 docker build -t declicimmo .
 ````
 
+Et ensuite on peut lancer l'image
+
 ```shell
 docker run -p 80:80 declicimmo
 ```
